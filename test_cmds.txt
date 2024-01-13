@@ -1,0 +1,2 @@
+curl -s http://127.0.0.1:8000/hello | json_pp
+curl -X POST -s http://127.0.0.1:8000/new_greeting -d '{"name":"test", "msg":"Yes!"}' -H 'Content-Type: application/json' | json_pp
